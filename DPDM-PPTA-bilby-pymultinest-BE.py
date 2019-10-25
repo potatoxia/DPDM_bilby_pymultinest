@@ -179,7 +179,7 @@ noise_dict = {noiseparsname[i]:noisepars[i] for i in range(len(noisepars))}
 
 def mylnlikelihood(xss):
     x0 = {**noise_dict,**xss}
-    try:x0['jup_orb_elements']=np.array([xss['jup_orb_elements'+str(1)],xss['jup_orb_elements'+str(2)],xss['jup_orb_elements'+str(3)],xss['jup_orb_elements'+str(4)],xss['jup_orb_elements'+str(5)],xss['jup_orb_elements'+str(6)]])
+    try:x0['jup_orb_elements']=np.array([xss['jup_orb_elements'+str(0)],xss['jup_orb_elements'+str(1)],xss['jup_orb_elements'+str(2)],xss['jup_orb_elements'+str(3)],xss['jup_orb_elements'+str(4)],xss['jup_orb_elements'+str(5)]])
     except KeyError: pass
     return pta.get_lnlikelihood(x0)
 
