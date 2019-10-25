@@ -64,9 +64,9 @@ import bilby.core.prior
 
 
 
-arg_nsource = '26'#sys.argv[1] #'6'
-arg_model = 'H0'#sys.argv[2] #'H1'
-fmax=8e-8#float(sys.argv[3])#8e-8
+arg_nsource = sys.argv[1] #'6'
+arg_model = sys.argv[2] #'H1'
+fmax=float(sys.argv[3])#8e-8
 fmin=1e-9
 
 
