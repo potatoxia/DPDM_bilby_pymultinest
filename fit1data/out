@@ -1,0 +1,179 @@
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+[tempo2Util.C:387] [TROP2] Assume standard atmospheric pressure (no data) for site pks at MJD 53084.1
+[tempo2Util.C:387] [TROP1] Assume zero zenith wet delay (no data) for site pks  at MJD 53084.1
+[tempo2Util.C:391] Warning: [DUP1] duplicated warnings have been suppressed.
+[TKfit.C:344] SVD nparams=32 nconst=0 ndata=881
+[tempo2.C:565] Complete fit
+
+
+Results for PSR J2145-0750
+
+
+RMS pre-fit residual = 1.497 (us), RMS post-fit residual = 1.035 (us)
+Fit Chisq = 3947	Chisqr/nfree = 3947.11/849 = 4.64913	pre/post = 1.44652
+Number of fit parameters: 32
+Number of points in fit = 881
+Offset: 7.23154e-07 1.20174e-06 offset_e*sqrt(n) = 3.56696e-05 n = 881
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       5.69780634699064          5.69780634889213          7.5533e-10    1.9015e-09    Y
+RAJ (hms)       21:45:50.4614797           21:45:50.4615058         1.0387e-05    2.6147e-05   
+DECJ (rad)      -0.136807030697207        -0.13680703559732         1.9853e-09    -4.9001e-09   Y
+DECJ (dms)      -07:50:18.47568           -07:50:18.47669           0.00040949    -0.0010107   
+F0 (s^-1)       62.2958878423845          62.2958878423875          2.642e-13     2.9416e-12    Y
+F1 (s^-2)       -1.15623346140418e-16     -1.15642401028673e-16     1.9374e-21    -1.9055e-20   Y
+PEPOCH (MJD)    54500                     54500                     0             0             N
+POSEPOCH (MJD)  54500                     54500                     0             0             N
+DMEPOCH (MJD)   54500                     54500                     0             0             N
+DM (cm^-3 pc)   8.99918773785298          9.00270174696001          0.0028021     0.003514      Y
+DM1 (cm^-3 pc y 0                         0.000377999338558138      2.7379e-05    0.000378      Y
+DM2 (cm^-3 pc y 0                         -2.8930488559773e-05      3.2775e-06    -2.893e-05    Y
+PMRA (mas/yr)   -9.55164321347536         -9.6257893401487          0.036117      -0.074146     Y
+PMDEC (mas/yr)  -9.01351313944335         -8.8086629592849          0.096446      0.20485       Y
+PX (mas)        1.36026116132274          1.65052153289997          0.095832      0.29026       Y
+PB (d)          6.83890261551997          6.8389026155406           4.3228e-11    2.0632e-11    Y
+T0 (MJD)        50806.1127208775          50806.1130690228          0.00062194    0.00034815    Y
+A1 (lt-s)       10.1641066552903          10.1641063666383          2.9237e-07    -2.8865e-07   Y
+OM (deg)        200.794926828055          200.813254613917          0.032739      0.018328      Y
+ECC             1.93363054902985e-05      1.93283400596802e-05      1.0329e-08    -7.9654e-09   Y
+XDOT            6.41935909356255e-15      6.98475734290769e-15      6.6825e-16    5.654e-16     Y
+START (MJD)     53084.0776532392          53084.0776532392          0             0             N
+FINISH (MJD)    57416.187960606           57416.187960606           0             0             N
+TZRMJD          55248.1493119521          55248.1493119521          0             -1.4552e-11   N
+TZRFRQ (MHz)    731.968994                731.968994                0             0             N
+TZRSITE         pks                      
+TRES            1.184                     1.03504966170727          0             -0.14895      N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+NE_SW (cm^-3)   4                         4                         0             0             N
+---------------------------------------------------------------------------------------------------
+[textOutput.C:273] Notice: Parameter uncertainties multiplied by sqrt(red. chisq)
+
+Jump 1 ( -g 10CM_WBCORR 1.8161623750768e-06 1): 8.5862949909146e-06 1.1771380629549e-06 Y
+Jump 2 ( -g 20CM_WBCORR 0 0): 0 0 N
+Jump 3 ( -h 20CM_H-OH_CPSR2m 2.5721142966169e-05 1): 3.8715889872247e-05 5.4863415812292e-06 Y
+Jump 4 ( -h 20CM_H-OH_CPSR2n 2.638854079371e-05 1): 3.8664647009588e-05 5.0129181402707e-06 Y
+Jump 5 ( -h 20CM_MULTI_CPSR2m 2.5701963589574e-05 1): 3.7364290374935e-05 5.4063803820063e-06 Y
+Jump 6 ( -h 20CM_MULTI_CPSR2n 2.6779888350151e-05 1): 3.7302537338094e-05 4.8594683617573e-06 Y
+Jump 7 ( -g 50CM_CPSR2 7.4652783216366e-06 1): 3.699389110719e-05 2.3003308539487e-05 Y
+Jump 8 ( -h 20CM_H-OH_PDFB1 2.5356737775774e-05 1): 3.2945032309484e-05 4.5890898840717e-06 Y
+Jump 9 ( -h 20CM_MULTI_PDFB1 2.388141536044e-05 1): 3.4707826844176e-05 5.0276481301567e-06 Y
+Jump 10 ( -g 10CM_PDFB1 -6.7946730414647e-07 1): 4.5414899542996e-06 1.0892985573826e-06 Y
+Jump 11 ( -g 20CM_PDFB2 2.4131777571668e-05 1): 3.2750641347674e-05 5.0476490975336e-06 Y
+Jump 12 ( -g 10CM_PDFB2 7.3888693758725e-08 1): 2.6336937044543e-06 7.1947756455683e-07 Y
+Jump 13 ( -g 20CM_PDFB3 2.3622944946651e-05 1): 3.1172268679842e-05 5.0383173431941e-06 Y
+Jump 14 ( -g 40CM_PDFB3 6.3686805324846e-06 1): 3.8382468525333e-05 2.0703518838748e-05 Y
+Jump 15 ( -g 40CM_CASPSR 4.6561196208846e-06 1): 3.7116044873342e-05 2.0775968733706e-05 Y
+Jump 16 ( -g 20CM_PDFB4 2.3523510817697e-05 1): 3.1141482378142e-05 5.0471313217875e-06 Y
+Jump 17 ( -apsr_1369_1024 1 -1.71e-05 0): -1.71e-05 0 N
+Jump 18 ( -apsr_732_512 1 -3.3e-05 0): -3.3e-05 0 N
+Jump 19 ( -caspsr 1 -1.31e-06 0): -1.31e-06 0 N
+Jump 20 ( -cpsr2_50cm 1 -2.36e-06 0): -2.36e-06 0 N
+Jump 21 ( -cpsr2m_1341 1 -1.72e-06 0): -1.72e-06 0 N
+Jump 22 ( -cpsr2n_1405 1 -1.8e-06 0): -1.8e-06 0 N
+Jump 23 ( -dfb3_J0437_55319_56160 1 2.2e-07 0): 2.2e-07 0 N
+Jump 24 ( -dfb3_J0437_56160_60000 1 4.5e-07 0): 4.5e-07 0 N
+Jump 25 ( -pdfb1_512_ch 1 -1.22813e-05 0): -1.22813e-05 0 N
+Jump 26 ( -pdfb1_post_2006 1 -1.3e-07 0): -1.3e-07 0 N
+Jump 27 ( -pdfb1_pre_2006 1 -1.13e-06 0): -1.13e-06 0 N
+Jump 28 ( -pdfb2_1024_MHz 1 -5.435e-06 0): -5.435e-06 0 N
+Jump 29 ( -pdfb2_256MHz_1024_ch 1 -1.1395e-05 0): -1.1395e-05 0 N
+Jump 30 ( -pdfb3_1024_MHz 1 1.03e-06 0): 1.03e-06 0 N
+Jump 31 ( -pdfb3_256MHz_1024ch 1 4.295e-06 0): 4.295e-06 0 N
+Jump 32 ( -pdfb3_256MHz_2048ch 1 8.32e-06 0): 8.32e-06 0 N
+Jump 33 ( -pdfb3_64MHz_512ch 1 8.9e-06 0): 8.9e-06 0 N
+Jump 34 ( -pdfb4_2048_1024_1024 1 2.14e-06 0): 2.14e-06 0 N
+Jump 35 ( -pdfb4_256MHz_1024ch 1 5.05e-06 0): 5.05e-06 0 N
+Jump 36 ( -pdfb4_55319_56055_cals 1 9.27e-07 0): 9.27e-07 0 N
+Jump 37 ( -pdfb4_56055_56110_cals 1 3.82e-07 0): 3.82e-07 0 N
+Jump 38 ( -pdfb4_56110_56160_cals 1 5.41e-07 0): 5.41e-07 0 N
+Jump 39 ( -pdfb4_56160_60000_cals 1 4.25e-07 0): 4.25e-07 0 N
+Jump 40 ( -wbb_c_config 1 3.8e-07 0): 3.8e-07 0 N
+
+Derived parameters:
+
+P0 (s)      = 0.0160524239180933        6.808e-17    
+P1          = 2.97987701678652e-20      4.9922e-25   
+tau_c (Myr) = 8540.9
+bs (G)      = 6.9987e+08
+
+Binary model: T2
+Mass function                  = 0.024105574776  +- 0.000000000965 solar masses 
+Minimum, median and maximum companion mass: 0.4232 < 0.5033 < 1.2545 solar masses
+
+Parallax distance is 605.869 (+/- 35.1777) pc.
+Total proper motion = 13.048 +/- 0.070351 mas/yr
+Total time span = 4332.108 days = 11.861 years
+
+Tempo2 usage
+Units:                 TCB (tempo2)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     Yes (tempo2)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE418
+Time scale             TT(BIPM2015)
+Binary model           T2
+In here writing a new parameter file: new.par
+
+[textOutput.C:1504] Warning: There are output parameters with very high covariance
+       param_JUMP(6)        param_JUMP(5) +0.99416
+       param_JUMP(7)        param_JUMP(5) +0.99338
+       param_JUMP(8)        param_JUMP(5) +0.99284
+       param_JUMP(8)        param_JUMP(7) +0.99250
+       param_JUMP(9)        param_JUMP(5) +0.99708
+       param_JUMP(9)        param_JUMP(6) +0.99444
+       param_JUMP(9)        param_JUMP(7) +0.99529
+       param_JUMP(9)        param_JUMP(8) +0.99407
+      param_JUMP(11)        param_JUMP(5) +0.99622
+      param_JUMP(11)        param_JUMP(6) +0.99309
+      param_JUMP(11)        param_JUMP(7) +0.99815
+      param_JUMP(11)        param_JUMP(8) +0.99466
+      param_JUMP(11)        param_JUMP(9) +0.99771
+      param_JUMP(13)        param_JUMP(5) +0.99143
+      param_JUMP(13)        param_JUMP(7) +0.99675
+      param_JUMP(13)        param_JUMP(8) +0.99080
+      param_JUMP(13)        param_JUMP(9) +0.99350
+      param_JUMP(13)       param_JUMP(11) +0.99652
+      param_JUMP(14)        param_JUMP(5) +0.99373
+      param_JUMP(14)        param_JUMP(6) +0.99013
+      param_JUMP(14)        param_JUMP(7) +0.99963
+      param_JUMP(14)        param_JUMP(8) +0.99278
+      param_JUMP(14)        param_JUMP(9) +0.99564
+      param_JUMP(14)       param_JUMP(11) +0.99849
+      param_JUMP(14)       param_JUMP(13) +0.99711
+      param_JUMP(15)        param_JUMP(5) +0.99364
+      param_JUMP(15)        param_JUMP(6) +0.99006
+      param_JUMP(15)        param_JUMP(7) +0.99945
+      param_JUMP(15)        param_JUMP(8) +0.99272
+      param_JUMP(15)        param_JUMP(9) +0.99557
+      param_JUMP(15)       param_JUMP(11) +0.99838
+      param_JUMP(15)       param_JUMP(13) +0.99699
+      param_JUMP(15)       param_JUMP(14) +0.99986
+      param_JUMP(16)        param_JUMP(5) +0.99392
+      param_JUMP(16)        param_JUMP(6) +0.99043
+      param_JUMP(16)        param_JUMP(7) +0.99912
+      param_JUMP(16)        param_JUMP(8) +0.99324
+      param_JUMP(16)        param_JUMP(9) +0.99591
+      param_JUMP(16)       param_JUMP(11) +0.99885
+      param_JUMP(16)       param_JUMP(13) +0.99755
+      param_JUMP(16)       param_JUMP(14) +0.99946
+      param_JUMP(16)       param_JUMP(15) +0.99933
+                  DM        param_JUMP(5) +0.99235
+                  DM        param_JUMP(7) +0.99982
+                  DM        param_JUMP(8) +0.99168
+                  DM        param_JUMP(9) +0.99439
+                  DM       param_JUMP(11) +0.99760
+                  DM       param_JUMP(13) +0.99656
+                  DM       param_JUMP(14) +0.99970
+                  DM       param_JUMP(15) +0.99946
+                  DM       param_JUMP(16) +0.99893
+                  OM                   T0 +1.00000
+Notice: There were 2 warnings. Summaries are shown below, check logs for full details.
+Warning #1: [DUP1] duplicated warnings have been suppressed.
+Warning #2: There are output parameters with very high covariance
+Finishing off: time taken = 1.15 (s)
