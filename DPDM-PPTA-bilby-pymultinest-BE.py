@@ -6,13 +6,10 @@ import glob
 #import matplotlib.pyplot as plt
 import scipy.linalg as sl
 import sys
-#sys.path.append('~/anaconda3/lib/python3.7/site-packages/libstempo')
+
 sys.path.append('~/anaconda3/lib/python3.7/site-packages/enterprise-1.2.0-py3.7.egg/enterprise')
 #sys.path.append('/Users/xiahe/Desktop/PTA/DPDM')
-#from libstempo.libstempo import *
-#import libstempo
-#libstempo.__path__
-#import libstempo as T
+
 
 try:
     from mpi4py import MPI
